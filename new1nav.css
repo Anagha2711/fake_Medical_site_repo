@@ -38,21 +38,29 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    transition: all .50s ease;
 }
 
 .logo i {
-    color: var(--main-color);
+    color: #ea1538;
     font-size: 28px;
     margin-right: 3px;
+    transition: all .50s ease;
 }
 
 .logo span {
     color: #ea1538;
     font-size: 1.7rem;
     font-weight: 600;
-
-
+    transition: all .50s ease;
 }
+.logo i:hover{
+    transform: scale(1.4);
+}
+.logo span:hover{
+    transform: scale(1.1);
+}
+
 
 .navbar {
     display: flex;
@@ -64,13 +72,12 @@ header {
     font-size: 1.1rem;
     font-weight: 500;
     padding: 5px 0px;
-    margin: 0px 30px;
+    margin: 0px 20px;
     transition: all .50s ease;
 }
 
 .navbar a:hover {
     color: var(--main-color);
-
 }
 
 .navbar a.active {
@@ -83,8 +90,7 @@ header {
 }
 
 .main a {
-    margin-left: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: #ea1538;
     font-size: 1.1rem;
     font-weight: 500;
@@ -104,6 +110,7 @@ header {
 
 .main a:hover {
     color: var(--main-color);
+    transform: scale(1.2);
 }
 
 #menu-icon {
