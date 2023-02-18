@@ -2,8 +2,8 @@
 //let navbar = document.querySelector('.navbar');
 
 //menu.onclick =()=>{
-    //menu.classList.toggle('bx-x');
-    //menu.classList.toggle('open');
+//menu.classList.toggle('bx-x');
+//menu.classList.toggle('open');
 //}
 
 const menu = document.querySelector("#menu-icon")
